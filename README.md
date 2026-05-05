@@ -1,11 +1,11 @@
 # ai_insurance
-# 🛡️ Trợ Lý Bảo Hiểm AI
+# Trợ Lý Bảo Hiểm AI
 
 > Hệ thống chatbot thông minh chuyên sâu về **tư vấn bảo hiểm** và **phát hiện rủi ro**, được xây dựng trên nền tảng mô hình ngôn ngữ lớn (LLM) kết hợp kỹ thuật RAG và Fine-tuning.
 
 ---
 
-## 📌 Giới thiệu
+## Giới thiệu
 
 **Trợ Lý Bảo Hiểm AI** là một hệ thống hỏi đáp tự động được thiết kế đặc biệt cho lĩnh vực bảo hiểm tại Việt Nam. Hệ thống không chỉ tư vấn các gói bảo hiểm mà còn có khả năng **phân tích và phát hiện rủi ro** dựa trên thông tin người dùng cung cấp.
 
@@ -17,7 +17,7 @@
 
 ---
 
-## 🧠 Năng lực chuyên môn
+## Năng lực chuyên môn
 
 ### Tư vấn bảo hiểm
 - Bảo hiểm sức khỏe, nhân thọ, xe cộ, tài sản
@@ -33,7 +33,7 @@
 
 ---
 
-## ⚙️ Kiến trúc hệ thống
+## Kiến trúc hệ thống
 
 ```
 ┌─────────────────────────────────────────────────┐
@@ -68,7 +68,7 @@
 
 ---
 
-## 🗂️ Cấu trúc thư mục
+## Cấu trúc thư mục
 
 ```
 ├── app/
@@ -107,7 +107,7 @@
 
 ---
 
-## 🚀 Cài đặt & Chạy
+## Cài đặt & Chạy
 
 ### Yêu cầu
 
@@ -167,7 +167,7 @@ POST /ask
 
 ---
 
-## 🔒 Bảo mật dữ liệu
+## Bảo mật dữ liệu
 
 - PDF người dùng nạp lên chỉ tồn tại **trong phiên làm việc** và được xóa hoàn toàn khi phiên kết thúc.
 - Lịch sử hội thoại được lưu **theo từng user** và không bị trộn lẫn giữa các tài khoản.
@@ -175,7 +175,7 @@ POST /ask
 
 ---
 
-## 🧪 Mô hình & Fine-tuning
+## Mô hình & Fine-tuning
 
 | Thành phần | Chi tiết |
 |---|---|
@@ -187,7 +187,7 @@ POST /ask
 
 ---
 
-## 📄 Giấy phép
+## Giấy phép
 
 Dự án được phát triển cho mục đích nghiên cứu và ứng dụng thực tế trong lĩnh vực bảo hiểm.
 
