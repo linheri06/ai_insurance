@@ -1,0 +1,11 @@
+PyPDF2
+langchain
+langchain-community
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+# llama-cpp-python
+transformers
+peft 
+torch
+flask

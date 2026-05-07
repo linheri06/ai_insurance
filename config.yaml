@@ -1,0 +1,12 @@
+model:
+  base_model: "Qwen/Qwen2.5-1.5B"
+  lora_path: "models/lora"
+  max_seq_len: 2048
+
+faiss:
+  index_dir: "data/vector_db"
+
+pdf:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  chunks_dir: "data/chunks"
