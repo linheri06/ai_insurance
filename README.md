@@ -181,7 +181,7 @@ POST /ask
 | Phương pháp fine-tuning | LoRA (Low-Rank Adaptation) |
 | Dữ liệu huấn luyện | Tài liệu bảo hiểm, hợp đồng, quy tắc bảo hiểm Việt Nam |
 | Embedding | `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` |
-| Vector DB | ChromaDB |
+| Vector DB | FAISS |
 
 ---
 
@@ -191,4 +191,4 @@ Dự án được phát triển cho mục đích nghiên cứu và ứng dụng 
 
 ---
 
-<p align="center">Được xây dựng với ❤️ bằng Python · Flask · LangChain · ChromaDB</p>
+<p align="center">Được xây dựng với bằng Python · Flask · LangChain · FAISS</p>
