@@ -21,7 +21,6 @@
 
 ### Tư vấn bảo hiểm
 - Bảo hiểm sức khỏe, nhân thọ, xe cộ, tài sản
-- So sánh các gói bảo hiểm theo nhu cầu cụ thể
 - Giải thích điều khoản hợp đồng bằng ngôn ngữ đơn giản
 - Hỗ trợ quy trình yêu cầu bồi thường
 
@@ -102,7 +101,6 @@
 └── notebooks/
     ├── demo.py                 # Demo nhanh
     ├── testbase.py             # Test mô hình gốc
-    └── model_test_no_rag.py    # Test không dùng RAG
 ```
 
 ---
